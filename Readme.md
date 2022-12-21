@@ -1,15 +1,15 @@
-### A big testing project of every sprite in flixel that either uses drawTriangles or extends FlxStrip
+## A big testing project of every sprite in flixel that either uses drawTriangles or extends FlxStrip
 
-##### flixel:
+### flixel:
 - FlxStrip
 
-##### flixel-addons: 
+### flixel-addons: 
 - FlxSliceSprite (uses drawtriangles and extends FlxStrip)
 - FlxSpine (uses FlxStrip in it's wrapper variable)
 - FlxClothSprite (uses drawtriangles)
 - FlxTiledSprite (extends FlxStrip)
 
-##### flixel-ui:
+### flixel-ui:
 nothing used drawTriangles or seemed to extend FlxStrip (at least, directly)
 
 Output of `haxelib list` (Install all of these individually with haxelib or follow the steps below this list):
